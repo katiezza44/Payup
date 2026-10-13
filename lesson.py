@@ -1,7 +1,15 @@
-
+#  1. Learnt how to run our code using the print() function
+#  2. We install python extensions
 print("welocme to python")
 name="kadijah tholley"
 print(name)
+
+
+# 3. We talked about Variables. Variable is a named container or place that stores a value.
+# 4. We talked about Strings. Strings is simply text stored inside a program. There
+#    are two types Strings and the Fstrings (a convenient way to put a variable in a string).
+
+# 5. We did an example or how variable, strings, and fstrings are used using a Payup app.
 
 age = 14
 school = "Sydenham"
