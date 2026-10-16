@@ -8,6 +8,15 @@
 # 5. Add a blank line between the student's information and their scores.
 # 6. Run the program and check the output.
 
+student_name = "mitya"
+course_name = "chemistry"
+assignment_score = 89
+test_score = 94
+exam_score = 98
+total_score = assignment_score + test_score + exam_score
+
+print(f"mitya is doing a {course_name} course. For his assignment score he achieved {assignment_score}, for his test score he achieved {test_score} and he achieved a {exam_score} for his exam score. In total, Mitya achieved a grand score of {total_score}.")
+
 # Challenge 3: Create a simple shopping receipt
 # 1. Create variables for: product name, product price, quantity, discount, and delivery fee.
 # 2. Calculate the subtotal.
@@ -32,3 +41,4 @@
 # 4. Calculate the amount each person pays if the tickets are shared among a group.
 # 5. Display everything using print() and f-strings.
 # 6. Make sure the final output is easy to read.
+
