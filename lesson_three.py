@@ -47,9 +47,38 @@ print(f"${balance}")
 
 # Type Checking and Conversion
 
+name = "Emmanuel"      # string (str)
+age = 20               # integer (int)
+price = 2500.50        # decimal (float)
+is_student = True     # boolean (bool)
 
 # cost = "300"
 
 # cost = int(cost)
 
-# print(cost)
+print(type(name))
+print(type(age))
+print(type(price))
+print(type(is_student))
+
+
+age = input("How old are you? ")
+
+
+number_of_book = "14"
+
+number_of_book_c = float(number_of_book)
+
+number_of_pen = "12"
+
+number_of_pen_c = float(number_of_pen)
+
+total_x = number_of_book + number_of_pen
+
+total_c = number_of_book_c + number_of_pen_c
+
+
+print(total_x)
+print(total_c)
+
+print(type(age))
