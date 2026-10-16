@@ -28,7 +28,22 @@ print(f"${total_cost}")
 
 # 3. You have 48 stickers to share equally among 6 friends. print how sony each person gets.
 
-# 1. You have $4200 in your wallet as your total revenue. You paid 3 staffs $50. You restocked goods of $1000 .Print how much I have left.
+stickers = 48
+
+number_of_friends = 6
+
+sticker_per_person = 48 / 6
+
+print(sticker_per_person)
+
+# 4. You have $4200 in your wallet as your total revenue. You paid 3 staffs $50. You restocked goods of $1000 .Print how much I have left.
+
+total_revenue = 4200
+staff_payment = 3 * 50
+goods_restock = 1000
+
+balance = total_revenue - (staff_payment + goods_restock)
+print(f"${balance}")
 
 # Type Checking and Conversion
 
