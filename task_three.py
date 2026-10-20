@@ -2,10 +2,18 @@
 
 # 1. You have 350 books in your library. You give 85 books to a school.
 #    Print how many books you have left.
+total_books = 350
+given_books = 85
+remaining_books = total_books - given_books
+print(remaining_books)
 
 
 # 2. A burger costs $15. You buy 3 burgers.
 #    Print the total cost.
+burger = 15
+burgers_bought = 3
+total_cost = burgers_bought * burger
+print(f"${total_cost}")
 
 
 # 3. You have 72 sweets to share equally among 8 children.
