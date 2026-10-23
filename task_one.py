@@ -24,6 +24,7 @@ print(f"mitya is doing a {course_name} course. For his assignment score he achie
 # 4. Display the receipt using print() and f-strings.
 # 5. Make the output look like an actual receipt.
 # 6. Run it with at least two different sets of values.
+ 
 
 # Challenge 4: Build a salary calculator
 # 1. Create variables for: employee name, basic salary, transport allowance, housing allowance, tax, and pension.
@@ -41,4 +42,16 @@ print(f"mitya is doing a {course_name} course. For his assignment score he achie
 # 4. Calculate the amount each person pays if the tickets are shared among a group.
 # 5. Display everything using print() and f-strings.
 # 6. Make sure the final output is easy to read.
+event_name = "vodyanitsa's opera show"
+ticket_price = 20
+service_charge = 9
+number_of_tickets = 4
+discount = 10
+group_size = 4
+
+subtotal = ticket_price * number_of_tickets
+total = subtotal + service_charge - discount
+
+
+
 

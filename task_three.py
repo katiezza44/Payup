@@ -18,16 +18,29 @@ print(f"${total_cost}")
 
 # 3. You have 72 sweets to share equally among 8 children.
 #    Print how many sweets each child gets.
+sweets = 72
+sweets_shared_children = 8
+each_child_gets = (sweets / sweets_shared_children)
 
+print(each_child_gets)
 
 # 4. You have $5,000 in your wallet.
 #    You spend $1,250 on clothes and $500 on food.
 #    Print how much money you have left.
+money = 5000
+spent = 1250 + 500
+
+money_left = (money - spent)
+print(f"${money_left}")
 
 
 # 5. You earn $25 every day.
 #    You work for 6 days.
 #    Print your total earnings.
+money_earned = 25
+days_worked = 6
+total_earnings = (money_earned * days_worked)
+print(f"${total_earnings}")
 
 
 # 6. You have 120 pencils.
