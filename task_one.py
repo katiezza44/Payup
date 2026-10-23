@@ -38,19 +38,37 @@ print(f"mitya is doing a {course_name} course. For his assignment score he achie
 # Challenge 5: Build a ticket booking calculator
 # 1. Create variables for: event name, ticket price, number of tickets, service charge, and discount.
 # 2. Calculate the ticket subtotal.
+
 # 3. Calculate the final amount after the discount and service charge.
+
 # 4. Calculate the amount each person pays if the tickets are shared among a group.
+
 # 5. Display everything using print() and f-strings.
 # 6. Make sure the final output is easy to read.
+
+
 event_name = "vodyanitsa's opera show"
 ticket_price = 20
 service_charge = 9
 number_of_tickets = 4
-discount = 10
+discount = 10/100
 group_size = 4
 
 subtotal = ticket_price * number_of_tickets
-total = subtotal + service_charge - discount
+
+discount_amount = discount * subtotal
+
+
+final_amount = (subtotal) + service_charge + discount_amount
+
+total_amount = (subtotal + service_charge) - discount_amount
+
+amount_per_person = total_amount / group_size
+
+print(final_amount)
+print(amount_per_person)
+
+print(f"Each person will pay a total fee of ${amount_per_person}")
 
 
 

@@ -37,7 +37,7 @@ print(f"in the morning i {morning}, in the afternoon i {afternoon}, and in the e
 event_name = "Domino's Pizza"
 drinks = 200
 pizza = 500
-service_charges = 20
+service_charges = drinks * 0.1
 group_size = 4
 
 grand_total = 720

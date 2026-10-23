@@ -82,3 +82,4 @@ print(total_x)
 print(total_c)
 
 print(type(age))
+
