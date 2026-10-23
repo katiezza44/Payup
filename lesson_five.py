@@ -24,4 +24,14 @@ print(number[0])
 print(number[1])
 
 
+people = ["kaeya", "mika", "lisa", "eula"]
+
+print(people[0])
+
+print(people[1])
+
+print(people[2])
+
+print(people[3])
+print(f"At dawn, i was woken up by {people[2]}. I then went down to the site where i met up with {people[0]}. I also noticed that in the background, {people[3]} was instructing {people[1]} on what to do for the day.")
 
