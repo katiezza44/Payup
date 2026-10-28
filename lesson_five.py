@@ -1,3 +1,21 @@
+import random
+
+# DESIGN
+
+# SIGNED
+
+people = ["Emmanuel", "Kadi", "Daniel", "Joy"]
+
+random.shuffle(people)
+
+target = random.choice(people)
+
+print(target)
+
+print(people)
+
+
+
 # Scramble Game
 
 
@@ -36,7 +54,14 @@ print(people[3])
 print(f"At dawn, i was woken up by {people[2]}. I then went down to the site where i met up with {people[0]}. I also noticed that in the background, {people[3]} was instructing {people[1]} on what to do for the day.")
 
 control = list("remote")
+
+
 print(sorted(control))
 
-date = "/".join(["2026","28", "10"])
-print(date)
+name = "/".join(["k", "a", "d", "i"])
+
+# Join ["2026", "28", "10"] with a slash
+
+print(name)
+
+
