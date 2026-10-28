@@ -37,3 +37,6 @@ print(f"At dawn, i was woken up by {people[2]}. I then went down to the site whe
 
 control = list("remote")
 print(sorted(control))
+
+date = "/".join(["2026","28", "10"])
+print(date)
