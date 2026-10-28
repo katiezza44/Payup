@@ -35,3 +35,5 @@ print(people[2])
 print(people[3])
 print(f"At dawn, i was woken up by {people[2]}. I then went down to the site where i met up with {people[0]}. I also noticed that in the background, {people[3]} was instructing {people[1]} on what to do for the day.")
 
+control = list("remote")
+print(sorted(control))
