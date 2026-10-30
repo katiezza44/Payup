@@ -14,14 +14,27 @@ random_name = random.choice(name)
 print(random_name)
 
 
-word = list(random_name)
+wrd = list(random_name)
 
+random.shuffle(wrd)
+
+
+print(wrd)
+scrambled_wrd = "".join(wrd)
+
+print(scrambled_wrd)
+
+
+
+words = ["flower", "rei", "yuki"]
+random_word = random.choice(words)
+print(random_word)
+
+word = list(random_word)
 random.shuffle(word)
-
-
 print(word)
-scrambled_word = "".join(word)
 
+scrambled_word = "".join(word)
 print(scrambled_word)
 
 
