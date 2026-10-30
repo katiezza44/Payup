@@ -40,11 +40,11 @@ print(scrambled_word)
 
 # Equality Operator
 
-# password = "EMMANUEL"
+password = "EMMANUEL"
 
-# user_password = input("What is your password? ")
+user_password = input("What is your password? ")
 
-# print(password == user_password)
+print(password == user_password)
 
 
-# print(password != user_password)
+print(password != user_password)
