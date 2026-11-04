@@ -25,7 +25,7 @@ else:
 # Youre building the results screen for an online course quiz. A student
 # needs at least 60 points to pass.
 # 1. Ask the student for their score and convert it to an int.
-# 2. It thetr score is 60 or higher, print that they passed.
+# 2. If there score is 60 or higher, print that they passed.
 # 3. Otherwise, print that they didn't pass this time.
 
 student_score = int(input("what is your score? "))
