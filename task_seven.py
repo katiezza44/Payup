@@ -1,13 +1,57 @@
 # Challenge 1: Shopping Discount 🛒
-# You're shopping online and the store offers free delivery for orders above ₦20,000.
+# You're shopping online and the store offers free delivery for orders above $20,000.
 # wallet = 25000cart_total = 18000delivery_fee = 2000
-
 
 # Check:
 # 1. Can you afford everything in your cart?
-# 2. Do you qualify for free delivery? (₦20,000 or more)
-# 3. Is your wallet balance greater than ₦10,000?
+# 2. Do you qualify for free delivery? ($20,000 or more)
+# 3. Is your wallet balance greater than $10,000?
 # 4. Will you have money left after buying everything and paying delivery?
+
+wallet = 25000
+cart_total = 18000
+delivery_fee = 2000
+free_delivery = 20000
+
+remaining_cash = wallet - (cart_total + delivery_fee)
+print(f"cash left over: ${remaining_cash}")
+total = cart_total + delivery_fee
+print(f"total: ${total}")
+
+print("Can you afford everything in your cart?")
+
+if remaining_cash < wallet:
+    print("Yes")
+else:
+    print("No")
+
+
+
+print("Are you elegible for free delivery?")
+
+if total >= free_delivery:
+    print("Yes")
+else:
+    print("No")
+
+
+
+print("Is your wallet balance greater than $10,000?")
+
+if remaining_cash > 10000:
+    print("Yes")
+else:
+    print("No")
+
+
+
+print("Do you have money left after buying everything and paying delivery?")
+
+if remaining_cash > 0:
+    print("Yes")
+else:
+    print("No")
+
 
 # Challenge 2: School Examination 📚
 # A student has just received her examination results.
