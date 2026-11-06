@@ -1,7 +1,9 @@
 
 # Challenge 1: Shopping Discount 🛒
 # You're shopping online and the store offers free delivery for orders above $20,000.
-# wallet = 25000cart_total = 18000delivery_fee = 2000
+# wallet = 25000
+# cart_total = 18000
+# delivery_fee = 2000
 
 # Check:
 # 1. Can you afford everything in your cart?
@@ -20,6 +22,13 @@ total = cart_total + delivery_fee
 print(f"total: ${total}")
 
 print("Can you afford everything in your cart?")
+
+if wallet > total:
+    print("I can afford everything in my cart")
+else:
+    print("I can't afford it")
+
+print(wallet > total)
 
 if remaining_cash < wallet:
     print("Yes")
@@ -43,6 +52,8 @@ if remaining_cash > 10000:
     print("Yes")
 else:
     print("No")
+
+print(remaining_cash > 10000)
 
 
 
@@ -81,7 +92,7 @@ else:
 # 4. Is the ticket price exactly ₦5,000?
 # 5. Do you have more money than the ticket costs?
 
-# Python Challenge: The School Fun Day Admission Checker 🎡
+# Challenge 4: The School Fun Day Admission Checker 🎡
 # Your school is organising a fun day with different activities, games and prizes. However, not every student can participate in every activity. The organisers need a simple program to check whether students meet the requirements.
 
 # Write a Python program that asks a student a few questions and determines which activities they can participate in.
