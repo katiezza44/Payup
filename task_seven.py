@@ -92,6 +92,9 @@ else:
 # 4. Is the ticket price exactly ₦5,000?
 # 5. Do you have more money than the ticket costs?
 
+
+
+
 # Challenge 4: The School Fun Day Admission Checker 🎡
 # Your school is organising a fun day with different activities, games and prizes. However, not every student can participate in every activity. The organisers need a simple program to check whether students meet the requirements.
 
@@ -108,6 +111,37 @@ else:
 # Video game competition	Age 13 or above
 # Treasure hunt	Quiz score of at least 60
 # Snack stand	At least ₦1,500
+
+
+print("Welcome to the School Fun Day Admission Checker. Please enter the following details to determine your elegibility.")
+
+student_name = input("What is your name? ")
+age = int(input("How old are you? "))
+money = int(input("How much money do you have? "))
+score = int(input("What was your previous quiz score? "))
+
+if age <= 12:
+    print("You may participate in the bouncy castle.")
+else:
+    print("You are not allowed to participate in the bouncy castle.")
+
+if age >= 13:
+    print("You may participate in the video game competition.")
+else:
+    print("You are not allowed to participate in the video game competition.")
+
+if score >= 60:
+    print("You may participate in the treasure hunt.")
+else:
+    print("You are not elegible for the treasure hunt.")
+
+if money > 1500:
+    print("You can purchase from the snack stand.")
+else:
+    print("You cannot purchase from the snack stand.")
+
+
+
 
 # Your tasks
 # 1. Collect the four pieces of information using input().

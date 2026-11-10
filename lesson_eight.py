@@ -34,6 +34,22 @@ else:
 # 4. Print their name and ticket price.
 # 5. If the age is negative, display an invalid age message.
 
+name = input("What is your name?")
+age = int(input("What is your age?"))
+
+if age < 5:
+    print("$0")
+elif 5 <= age <= 12:
+    print("$2000")
+elif 13<= age <= 17:
+    print("$3500")
+elif 18 <= age <= 59:
+    print("$5000")
+elif age >= 60:
+    print("$3000")
+else:
+    print("Ticket not found")
+
 
 # You're building a feature for a coffee shop that has unreliable Wi-Fi. The shop wants to reward customers with discounts depending on how many Wi-Fi signal bars they receive.
 
