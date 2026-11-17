@@ -65,14 +65,15 @@ else:
 # Tuples are immutable, meaning they cannot be changed after they are created. They are defined using parentheses () and can contain elements of different data types.
 
 
-about_me = ("Emmanuel", 22, "Nigeria", "Python Developer")
+# about_me = ("Emmanuel", 22, "Nigeria", "Python Developer")
 
-about_me[0] # Accessing the first element of the tuple
+# about_me[0] # Accessing the first element of the tuple
 
 
-word_bank = [
+# word_bank = [
     ("adventure", "Our trip to the mountains was an exciting ________"),
     ("whisper", "She had to ________ so she wouldn't wake the baby."),
     
-]
+
 # education , I love -------
+
