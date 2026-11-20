@@ -45,19 +45,40 @@ import random
 
 
 
-words = ["rin","kaito", "luka", "len"]
-random_word = random.choice(words)
-print(random_word)
-word = list(random_word)
-random.shuffle(word)
-print(word)
-scrambled_word = "".join(word)
+# words = ["rin","kaito", "luka", "len"]
+
+word_bank = [
+    ("adventure", "Our trip to the mountains was an exciting ________"),
+    ("whisper", "She had to ________ so she wouldn't wake the baby."),
+    ("fall", "If he wasn't careful, he'd ______ off his bike.")    
+]
+
+word, hint = random.choice(word_bank)
+
+letters = list(word)
+
+# print(word)
+
+random.shuffle(letters)
+
+# print(word)
+
+scrambled_word = "".join(letters)
+
+
 print(scrambled_word)
 
-guess = input("Guess the word or 'hint'/ 'Skip' to skip. ").lower().strip()
+
+
+guess = input("Guess the word choose 'hint' or 'skip' to skip. ").lower().strip()
+
+if guess == "hint":
+    print(f"Hint: {hint}")
+    guess = input("Guess the word choose 'skip' to skip. ").lower().strip()
+
 if guess == "skip":
-    print(f"Skip: The word is {random_word}. ")
-elif guess == random_word:
+    print(f"Skip: The word is {word}. ")
+elif guess == word:
     print("Correct!")
 else:
     print("Game over.")
@@ -77,3 +98,4 @@ else:
 
 # education , I love -------
 
+# education , I love -------
