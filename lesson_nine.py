@@ -127,3 +127,10 @@ print("Thanks for playing!")
 
 # if attempts >= 4:
 #     print("Phone locked!")
+# education , I love -------
+print(20/4)
+print(int(7.9))
+number = int("12.5")
+print(number)
+
+
