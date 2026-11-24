@@ -57,7 +57,10 @@ word_bank = [
     ("function", "A reusable block of code that performs a particular task."),
     ("variable", "A named location used to store information in a program."),
     ("firewall", "A security system that helps block unwanted network traffic."),
-    ("interface", "The part of an application that users interact with.")
+    ("interface", "The part of an application that users interact with."),
+    ("adventure", "Our trip to the mountains was an exciting ________"),
+    ("whisper", "She had to ________ so she wouldn't wake the baby."),
+    ("fall", "If he wasn't careful, he'd ______ off his bike.")    
 ]
 
 
@@ -96,7 +99,9 @@ while round_number <= rounds:
     else:
         print("Game over.")
 
-round_number += 1
+    round_number += 1
+print("Thanks for playing!")
+
 
 # Tuples are immutable, meaning they cannot be changed after they are created. They are defined using parentheses () and can contain elements of different data types.
 
