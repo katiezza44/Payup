@@ -66,11 +66,17 @@ word_bank = [
 
 rounds = 5
 round_number = 1
-
+used = []
+score = 0 
 
 while round_number <= rounds:
 
     word, hint = random.choice(word_bank)
+
+    while (word, hint) in used:
+        word, hint = random.choice(word_bank)
+    used.append((word, hint))
+
 
     letters = list(word)
 
@@ -95,6 +101,7 @@ while round_number <= rounds:
     if guess == "skip":
         print(f"Skip: The word is {word}. ")
     elif guess == word:
+        score += 1
         print("Correct!")
     else:
         print("Game over.")
@@ -102,6 +109,7 @@ while round_number <= rounds:
     round_number += 1
 print("Thanks for playing!")
 
+print(f"Your final score is {score} out of {rounds}")
 
 # Tuples are immutable, meaning they cannot be changed after they are created. They are defined using parentheses () and can contain elements of different data types.
 
