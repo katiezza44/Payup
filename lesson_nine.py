@@ -106,6 +106,16 @@ while round_number <= rounds:
     else:
         print("Game over.")
 
+if score == 1:
+    print("Nice try.")
+elif score == 2:
+    print("Good, but you can do better.")
+elif score == 3:
+    print("You did well.")
+elif score == 4:
+    print("Almost full marks!")
+elif score == 5:
+    print("A perfect score!")
     round_number += 1
 print("Thanks for playing!")
 
